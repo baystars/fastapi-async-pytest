@@ -8,3 +8,9 @@
 * step1: add testing
 * step1: moduled
 * step2: add database
+* modified: add crud for notes
+* step3: add testing above
+
+## Link
+
+* [Monkeypatching/mocking modules and environments — pytest documentation](https://docs.pytest.org/en/latest/monkeypatch.html)
