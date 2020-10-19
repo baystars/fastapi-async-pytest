@@ -13,6 +13,7 @@
 * step4: error handling
 * step5: add get_all method
 * step6: add put routing
+* step7: add delete routing
 
 ## Link
 
