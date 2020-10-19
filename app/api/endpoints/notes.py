@@ -1,7 +1,7 @@
 # -*- mode: python -*- -*- coding: utf-8 -*-
 from typing import List
 
-from fastapi import APIRouter, HTTPException
+from fastapi import (APIRouter, HTTPException, Path)
 
 from app.api import crud
 from app.api.schemas import (NoteDB, NoteSchema)
@@ -22,7 +22,7 @@ async def create_note(payload: NoteSchema):
 
 
 @router.get("/{id}/", response_model=NoteDB)
-async def read_note(id: int):
+async def read_note(id: int = Path(..., gt=0),):
     note = await crud.get(id)
     if not note:
         raise HTTPException(status_code=404, detail="Note not found")
