@@ -10,6 +10,7 @@
 * step2: add database
 * modified: add crud for notes
 * step3: add testing above
+* step4: error handling
 
 ## Link
 
