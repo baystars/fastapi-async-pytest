@@ -17,6 +17,7 @@
 * step8: addional validation
 * step9: addional validation(post)
 * step10:  addional validation(put)
+* step11:  addional validation(delete)
 
 ## Link
 
