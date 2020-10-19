@@ -6,3 +6,5 @@
 
 * step0: simple ping pong server
 * step1: add testing
+* step1: moduled
+* step2: add database
