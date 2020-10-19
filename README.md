@@ -11,6 +11,7 @@
 * modified: add crud for notes
 * step3: add testing above
 * step4: error handling
+* step5: add get_all method
 
 ## Link
 
