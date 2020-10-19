@@ -17,3 +17,14 @@ async def get(id: int):
 async def get_all():
     query = notes.select()
     return await db.fetch_all(query=query)
+
+
+async def put(id: int, payload: NoteSchema):
+    query = (
+        notes
+        .update()
+        .where(id == notes.c.id)
+        .values(title=payload.title, description=payload.description)
+        .returning(notes.c.id)
+    )
+    return await db.execute(query=query)

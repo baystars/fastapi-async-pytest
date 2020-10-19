@@ -12,7 +12,9 @@
 * step3: add testing above
 * step4: error handling
 * step5: add get_all method
+* step6: add put routing
 
 ## Link
 
 * [Monkeypatching/mocking modules and environments — pytest documentation](https://docs.pytest.org/en/latest/monkeypatch.html)
+* [docs\.pytest\.org](https://docs.pytest.org/en/stable/parametrize.html)
