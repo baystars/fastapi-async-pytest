@@ -1,7 +1,7 @@
 # -*- mode: python -*- -*- coding: utf-8 -*-
 from app.api.schemas import NoteSchema
 from app.api.models import Notes
-from app.database import db
+from app.service.database import db
 
 
 async def post(payload: NoteSchema):

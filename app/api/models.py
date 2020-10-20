@@ -2,7 +2,7 @@
 from sqlalchemy import (Column, DateTime, Integer, MetaData, String, Table,
                         create_engine)
 from sqlalchemy.sql import func
-from app.database import (metadata, engine)
+from app.service.database import (metadata, engine)
 
 Notes = Table(
     "notes",

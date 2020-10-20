@@ -2,7 +2,7 @@
 from fastapi import FastAPI
 
 from app.api.endpoints import (ping, notes)
-from app.database import (engine, metadata, db)
+from app.service.database import (engine, metadata, db)
 
 
 metadata.create_all(engine)
